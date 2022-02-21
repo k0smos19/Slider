@@ -1,0 +1,32 @@
+#slider {
+    width: 384px;
+    height: 128px;
+    border: 2px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#polosa {
+    background: pink;
+    width: 896px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+#polosa img {
+    float: left;
+}
+
+#btn {
+   border: none;
+   padding: 15px 50px;
+   background: pink;
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-div { 
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
